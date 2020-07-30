@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+h1{
+	font-family: Helvetica;
+	font-style: bold;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.section{
+	background-color: #b4b4b4;
+  border:2px solid black;
+  font-family: Comic Sans MS;
+  font-size: 20px;
+
+}
+
+#chicken{
+	background-color: orange;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  height:30px;
+  width:100px;
+  float: right;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#beef{
+  background-color: purple;
+  text-align: center;
+
+  margin-bottom: 10px;
+  margin-top: 0px;
+  height:30px;
+  width:100px;
+  color: white;
+  float: right;
+    border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#sushi{
+  background-color: #ffac98;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  height:30px;
+  width:100px;
+  float: right;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#p1 {
+  width: 100%;
+  font-family: Times Roman;
+  color: black;
+  word-wrap: initial;
+  margin: 0px;
+  font-size: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin-top: 36px;
+}
+
+.row {
+  width: 100%;
+}
+
+/**Large device**/
+@media (min-width: 992px) {
+  .col_l1 {
+    float: left;
+    padding: 10px;
+  }
+  .col_l1 {
+    width: 33.333%;
+  }
+}
+
+/** Medium devices only **/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col_m1, .col_m2 {
+    float: left;
+    padding: 10px;
+  }
+  .col_m1{
+  	width: 50%;
+  }
+  .col_m2 {
+  	width: 100%
+  }
+}
+
+/** Small devices only **/
+@media (max-width: 767px) {
+  .col_s1 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+  }
